@@ -1,2 +1,11 @@
 # Receitas-de-Bolo
 Conheça três receitas de bolo que faço!
+
+
+- 👚 E-mail pessoal: MafeZinha2008@gmail.com
+- 👔 E-mail institucional: maria.araujo111@aluno.cps.sp.gov.br
+  
+Linguagem usada: HTML
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML-ff69b4?style=for-the-badge&logo=html5&logoColor=white"/>
+</p>
