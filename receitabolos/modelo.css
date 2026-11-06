@@ -1,0 +1,52 @@
+/* Configuração geral dos blocos de receita */
+.bloco-bolo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 40px;
+    width: 100%; 
+}
+
+/* Força a inversão de lado no segundo bloco */
+.bloco-bolo.inverter {
+    flex-direction: row-reverse;
+}
+
+/* Configuração da área da imagem/título */
+.midia {
+    flex: 1; 
+    width: 50%;
+    text-align: left; /* Padrão: título alinhado à esquerda junto com a imagem */
+}
+
+/* Alinhamento para o bloco do meio (invertido) */
+.bloco-bolo.inverter .midia {
+    text-align: right;
+     /* Título e imagem colados na extrema direita */
+}
+
+/* Garante o tamanho da imagem e que responda ao alinhamento */
+.midia img {
+    max-width: 60%;
+    height: auto;
+    display: inline-block; 
+    border-radius: 8px;
+}
+
+/* Configuração da área do texto descritivo <p> */
+.texto {
+    flex: 1;
+    width: 0%;
+}
+
+/* Primeiro e Terceiro blocos: Texto na direita alinhado à esquerda (alinhamento natural por padrão) */
+.texto p {
+    text-align: left; 
+    margin: 0;
+}
+
+/* SEGUNDO BLOCO (Invertido): Texto na esquerda alinhado à direita para acompanhar a imagem */
+.bloco-bolo.inverter .texto p {
+    text-align: right; 
+}
